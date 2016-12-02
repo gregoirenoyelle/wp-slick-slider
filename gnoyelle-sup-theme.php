@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: gnoyelle : Options du thème par Grégoire
+Plugin Name: Slick Slider pour WordPress
 Plugin URI: http://wwww.gregoirenoyelle.com
-Description: Toutes les options suplémentaires pour le thème
+Description: Slick slider pour WordPress
 Version: 1.0
 Author: Grégoire Noyelle
 Author URI: http://wwww.gregoirenoyelle.com
@@ -34,6 +34,6 @@ $my_plugin_name = 'WP Plugin Name';
 // Fichier de functions pour WordPress
 include_once(plugin_dir_path( __FILE__ ) . '/lib/func.wordpress.php');
 // Fichier de functions pour Genesis
-include_once(plugin_dir_path( __FILE__ ) . '/lib/func.genesis.php');
+// include_once(plugin_dir_path( __FILE__ ) . '/lib/func.genesis.php');
 // Fichier de functions pour intégrer des CSS et JS
 include_once(plugin_dir_path( __FILE__ ) . '/lib/func.enqueue.php');
