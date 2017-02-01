@@ -3,7 +3,7 @@
 Plugin Name: Slick Slider pour WordPress
 Plugin URI: http://wwww.gregoirenoyelle.com
 Description: Slick slider pour WordPress
-Version: 1.0
+Version: 11.0
 Author: Grégoire Noyelle
 Author URI: http://wwww.gregoirenoyelle.com
 License: GPL2
