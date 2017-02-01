@@ -1,4 +1,4 @@
-## Theme plugin
+## Slick Slider For WordPress
 
-* Add some special feature for a client project
-* Try to change nothing in the theme without using a child theme
+* Add Slick Slider in a WordPress Plugin
+* Use with ACF Pro and ACF Widgets 
