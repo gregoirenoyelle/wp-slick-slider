@@ -12,6 +12,7 @@ add_action('wp_enqueue_scripts','slick_styles_front', 99);
 function slick_styles_front() {
 	wp_register_style('slick', plugins_url( 'css/slick.css', dirname(__FILE__) ), array(), '1.0', 'all' );
 	wp_register_style('slick-theme', plugins_url( 'css/slick-theme.css', dirname(__FILE__) ), array(), '1.0', 'all' );
+	// Condition pour appeler ces fichiers CSS seulement sur la home
 	if ( is_home() ) {
 		wp_enqueue_style('slick');
 		wp_enqueue_style('slick-theme');
@@ -23,6 +24,7 @@ function slick_styles_front() {
 add_action('wp_enqueue_scripts','slick_scripts_front');
 function slick_scripts_front() {
 	wp_register_script('slick',plugins_url( 'js/slick.min.js', dirname(__FILE__) ), array('jquery'),'1.0',true);
+	// Condition pour appeler ces fichiers JS seulement sur la home
 	if ( is_home() ) {
 		wp_enqueue_script('slick');
 	}
@@ -30,7 +32,8 @@ function slick_scripts_front() {
 }
 
 /**************************
-* ENQUEUE POUR LE BACK
+* ENQUEUE POUR LE BACK 
+* désactivé ici
 **************************/
 
 //* enqueue style back
